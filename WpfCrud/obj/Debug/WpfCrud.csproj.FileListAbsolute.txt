@@ -1,0 +1,19 @@
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\bin\Debug\WpfCrud.exe.config
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\bin\Debug\WpfCrud.exe
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\bin\Debug\WpfCrud.pdb
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\bin\Debug\Vektorel.DbHelpers.dll
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\bin\Debug\Vektorel.DbHelpers.pdb
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\MainWindow.baml
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\MainWindow.g.cs
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\App.g.cs
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud_MarkupCompile.cache
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud.g.resources
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud.Properties.Resources.resources
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud.csproj.GenerateResource.Cache
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud.exe
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud.pdb
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\WpfCrud\WpfCrud\obj\Debug\WpfCrud_MarkupCompile.lref
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\WpfCrud\bin\Debug\WpfCrud.exe.config
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\WpfCrud\obj\Debug\WpfCrud.exe
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\WpfCrud\obj\Debug\WpfCrud.pdb

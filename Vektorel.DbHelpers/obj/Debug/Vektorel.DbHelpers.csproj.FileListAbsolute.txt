@@ -1,0 +1,4 @@
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\bin\Debug\Vektorel.DbHelpers.dll
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\bin\Debug\Vektorel.DbHelpers.pdb
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.dll
+D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.pdb
