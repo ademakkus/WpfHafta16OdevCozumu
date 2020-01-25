@@ -12,10 +12,13 @@ namespace Vektorel.DbHelpers
     public class Helper
     {
         protected static readonly string constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
-
-        public static int ExecuteNonQuery(string sqlstr,CommandType cType, SqlParameter[] parameters=null)
+        #region ExecuteNonQuery metodu
         /// <summary>
+        /// ExecuteNonQuery()
+        /// </summary>
+        /// <param name="sqlstr">sql string</param>
         /// <param name="cType">Command type</param>
+        /// <param name="parameters"> parameters</param>
         /// <returns>numRows</returns>
         public static int ExecuteNonQuery(string sqlstr, CommandType cType, SqlParameter[] parameters = null)
         {
