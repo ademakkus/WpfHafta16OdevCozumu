@@ -14,6 +14,10 @@ namespace Vektorel.DbHelpers
         protected static readonly string constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
 
         public static int ExecuteNonQuery(string sqlstr,CommandType cType, SqlParameter[] parameters=null)
+        /// <summary>
+        /// <param name="cType">Command type</param>
+        /// <returns>numRows</returns>
+        public static int ExecuteNonQuery(string sqlstr, CommandType cType, SqlParameter[] parameters = null)
         {
             SqlConnection con = new SqlConnection(constr);
             SqlCommand cmd = new SqlCommand(sqlstr, con);
@@ -24,10 +28,10 @@ namespace Vektorel.DbHelpers
             try
             {
                 con.Open();
-                numRows = cmd.ExecuteNonQuery();                
+                numRows = cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
-            {                
+            {
                 throw ex;
             }
             finally
@@ -36,7 +40,8 @@ namespace Vektorel.DbHelpers
                     con.Close();
             }
             return numRows;
-        }
+        } 
+        #endregion
 
         public static SqlDataReader ExecuteReader(string sqlstr, CommandType cType, SqlParameter[] parameters=null)
         {
@@ -59,6 +64,28 @@ namespace Vektorel.DbHelpers
             }
             return reader;
         }
+
+        //public static List<T> ExecuteReader<T>(string sqlstr, CommandType cType, SqlParameter[] parameters = null)
+        //{
+        //    SqlConnection con = new SqlConnection(constr);
+        //    SqlCommand cmd = new SqlCommand(sqlstr, con);
+        //    cmd.CommandType = cType;
+        //    if (parameters != null)
+        //        cmd.Parameters.AddRange(parameters);
+        //    List<T> items = new List<T>();
+        //    try
+        //    {
+        //        con.Open();
+        //        SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        if (con.State != ConnectionState.Closed)
+        //            con.Close();
+        //        throw ex;
+        //    }
+        //  //  return reader;
+        //}
 
         public static object ExecuteScalar(string sqlstr, CommandType cType,SqlParameter[] parameters=null)
         {

@@ -44,7 +44,7 @@ namespace WpfCrud
                 //Ekleme yapılıyor
                 CategoryBLL.AddCategory(new Category
                 {
-                    Name=txtCategoryName.Text,
+                    CategoryName=txtCategoryName.Text,
                     Description=txtDescription.Text
                 });
                 newCategory = false;
@@ -58,7 +58,7 @@ namespace WpfCrud
                 Category oldCategory = gridCategories.SelectedItem as Category;
                 //kategori modelini güncelle
                 oldCategory.Description = txtDescription.Text;
-                oldCategory.Name = txtCategoryName.Text;
+                oldCategory.CategoryName = txtCategoryName.Text;
                 CategoryBLL.UpdateCategory(oldCategory);
                 gridCategories.ItemsSource = CategoryBLL.GetAll();
                 MessageBox.Show("Kategori başarıyla güncellendi.");

@@ -2,3 +2,8 @@ D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpe
 D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\bin\Debug\Vektorel.DbHelpers.pdb
 D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.dll
 D:\Halil İbrahim (5 Ekim)\16. Hafta\Uygulamalar\CrudOperations\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.pdb
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\Vektorel.DbHelpers\bin\Debug\Vektorel.DbHelpers.dll
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\Vektorel.DbHelpers\bin\Debug\Vektorel.DbHelpers.pdb
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.csprojResolveAssemblyReference.cache
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.dll
+D:\AdemAKKUS\Uygulamalar\Hafta17\WpfHafta16OdevCozumu\Vektorel.DbHelpers\obj\Debug\Vektorel.DbHelpers.pdb
