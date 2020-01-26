@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WpfCrud
+{
+   public class ColumnColorAttribute:Attribute
+    {
+        public Color Color = Color.Crimson;
+       /// <summary>
+       /// Red 
+       /// Green
+       /// Blue
+       /// </summary>
+        public byte Red { get; set; }
+       
+        public byte Green { get; set; }
+        public byte Blue { get; set; }
+
+    }
+}

@@ -34,7 +34,10 @@ namespace WpfCrud.Context
                 {
                     if (reader.HasRows!=null)
                     {
-                        property.SetValue(item, reader[property.Name]);
+                        //while (reader.Read())
+                        //{
+                            property.SetValue(item, reader[property.Name]); 
+                        //}
                     }
                 }
                 items.Add(item);

@@ -3,9 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WpfCrud"
         xmlns:controls="clr-namespace:WpfCrud.CustomControls"
-        Title="MainWindow" Height="278.101" Width="415.208">
+        Title="MainWindow" Height="600" Width="600">
     <Window.Resources>
-        <local:SelectedIndexToBool x:Key="selectedIndexToBool"/>
+        <local:SelectedIndexToBool x:Key="selectedIndexToBool"
+                                   
+                                   />
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -16,7 +18,9 @@
             x:Name="gridCategories"
                   IsReadOnly="True"
                   HorizontalAlignment="Center"
-                  />
+                  Padding="2"
+           Width="Auto" Height="400"
+            />
         <Grid Grid.Row="1" DataContext="{Binding ElementName=gridCategories,Path=SelectedItem}">
             <Grid.RowDefinitions>
                 <RowDefinition/>
